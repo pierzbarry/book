@@ -60,7 +60,16 @@ public class Book {
         isInStock = inStock;
     }
 
-    public void getDispalyText() {
-        System.out.println("|| Title: " + bookTitle + " || Written by: " + author + " || Description: " + description);
+    public void getDisplayText() {
+        System.out.println("|| Title: " + bookTitle + " || Written by: " + author + "\n|| Description: " + description + "\n");
     }
+
+//    private void cost(int bookQuantity){
+//        if(isInStock) {
+//            System.out.print("Total cost: $" + (price * bookQuantity) + "0");
+//        } else {
+//            System.out.println("Sorry we out this bitch");
+//        }
+//
+//    }
 }
