@@ -25,9 +25,12 @@ public class Main {
 
     public static void main(String[] args) {
 
+//		Book book = new Book("Yusuf the Executor", "P-Diddy", "This book is literally just about some kid running around and murdering people. yike", 12.50, true);
+//		book.getDisplayText();
+
     	ArrayList<Book> list = new ArrayList<>();
         list.add(new Book("Big Bird and the Primes", "Bishop Briggs",
-				"Big bird hates his life, oh well! Couldn't be me :)", 5, true));
+				"Big bird hates his life, oh well! Couldn't be me :)", 5, false));
 		list.add(new Book("Yusuf the Executor", "P-Diddy",
 				"This book is literally just about some kid running around and murdering people. Yike.", 12.50, true));
 		list.add(new Book("Yellow Tears", "Yosemite Brown",

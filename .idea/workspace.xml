@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35df6bd7-de2d-4a63-b0ad-b9a43418b992" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/book/com/company/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/book/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/book/com/company/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book/com/company/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/book/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book/com/company/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
@@ -71,7 +70,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572632478697</updated>
-      <workItem from="1572632482239" duration="5720000" />
+      <workItem from="1572632482239" duration="6059000" />
+      <workItem from="1572876132117" duration="1766000" />
     </task>
     <servers />
   </component>
@@ -83,7 +83,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

@@ -14,7 +14,7 @@ public class Book {
 
     public Book(String bookTitle, String author, String description, double price, boolean isInStock) {
         this.bookTitle = bookTitle;
-        this.bookTitle = author;
+        this.author = author;
         this.description = description;
         this.price = price;
         this.isInStock = isInStock;
@@ -62,6 +62,17 @@ public class Book {
 
     public void getDisplayText() {
         System.out.println("|| Title: " + bookTitle + " || Written by: " + author + "\n|| Description: " + description + "\n");
+    }
+
+    public double total(int x){
+        if(isInStock)
+        {
+            return this.price * x;
+        }
+        else{
+            System.out.println("sorry we out this bitch");
+            return 0;
+        }
     }
 
 //    private void cost(int bookQuantity){
