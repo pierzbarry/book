@@ -30,19 +30,20 @@ public class Main {
 
     	ArrayList<Book> list = new ArrayList<>();
         list.add(new Book("Big Bird and the Primes", "Bishop Briggs",
-				"Big bird hates his life, oh well! Couldn't be me :)", 5, false));
+				"Big bird hates his life, oh well! Couldn't be me :)", 5, true));
 		list.add(new Book("Yusuf the Executor", "P-Diddy",
 				"This book is literally just about some kid running around and murdering people. Yike.", 12.50, true));
 		list.add(new Book("Yellow Tears", "Yosemite Brown",
 				"It's a biography about how the author is super dehydrated.", 20, true));
 		list.add(new Book("Hey guy!", "Moe Beau", "It's a sad book ok", 22, true));
 
-		double total = 0;
+		double sum = 0;
 
 		for (Book b : list) {
 			b.getDisplayText();
-			total += b.getPrice();
+			double priceOfThisBook = b.total(b.getPrice());
+			sum += priceOfThisBook;
 		}
-		System.out.println("Total cost: $" + total + "0");
+		System.out.println("Total cost: $" + sum + "0");
     }
 }

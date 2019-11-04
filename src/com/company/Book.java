@@ -60,20 +60,22 @@ public class Book {
         isInStock = inStock;
     }
 
+    public double total(double x){
+        if(isInStock)
+        {
+            return this.price;
+        }
+        else{
+            System.out.println("*** sorry " + bookTitle + " is out of stock ***\n");
+            return 0;
+        }
+    }
+
     public void getDisplayText() {
         System.out.println("|| Title: " + bookTitle + " || Written by: " + author + "\n|| Description: " + description + "\n");
     }
 
-    public double total(int x){
-        if(isInStock)
-        {
-            return this.price * x;
-        }
-        else{
-            System.out.println("sorry we out this bitch");
-            return 0;
-        }
-    }
+
 
 //    private void cost(int bookQuantity){
 //        if(isInStock) {
